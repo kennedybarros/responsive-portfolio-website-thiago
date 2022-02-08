@@ -236,6 +236,7 @@ body.dark-theme {
   padding-left: 50px;
   padding-bottom: 25px;
 }
+
 @media screen and (max-width: 320px) {
   .container {
     margin-left: 1rem;
@@ -250,7 +251,7 @@ body.dark-theme {
   .home_icons {
     padding-left: 30px;
     padding-right: 30px;
-  }
+  } 
   .home_text {
     font-size: 12px;
   }
