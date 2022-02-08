@@ -5,6 +5,7 @@
   --title-color: #1a1a1a;
   --text-color: #555555;
   --body-color: #ffffff;
+  --button: #b0b0b0;
 }
 
 * {
@@ -68,6 +69,7 @@ body.dark-theme {
   --title-color: #f2f2f2;
   --text-color: #c2bdbd;
   --body-color: #171515;
+  --button: rgba(255, 255, 255, 0.1);
 }
 
 .dark-theme .nav_link {
@@ -237,6 +239,66 @@ body.dark-theme {
   padding-bottom: 25px;
 }
 
+.about_emp {
+  justify-content: center;
+  display: flex;
+  opacity: 0.5;
+  gap: 50px;
+}
+
+.about_emp-logo {
+  width: 130px;
+}
+
+.about_data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 85px;
+}
+
+.about_img {
+  justify-self: right;
+}
+
+.about_text {
+  padding-left: 25px;
+}
+
+.about_title {
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--title-color);
+}
+
+.about_pont {
+  color: var(--primary-color);
+}
+
+.about_description {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-color);
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.about_button {
+  display: inline-block;
+  background: var(--button);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: var(--title-color);
+  padding: 16px 30px;
+}
+
+.about_icons {
+  display: flex;
+  gap: 10px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 320px) {
   .container {
     margin-left: 1rem;
@@ -245,13 +307,16 @@ body.dark-theme {
 }
 
 @media screen and (max-width: 767px) {
+  .home {
+    padding-top: 50px;
+  }
   .home_description,
   .home_text,
   .home_title,
   .home_icons {
     padding-left: 30px;
     padding-right: 30px;
-  } 
+  }
   .home_text {
     font-size: 12px;
   }
@@ -267,8 +332,37 @@ body.dark-theme {
   .home_links {
     max-width: 22px;
   }
-  .home_img {
+  .home_img,
+  .about_img {
     display: none;
+  }
+  .about_emp-logo {
+    max-width: 100px;
+    place-self: center;
+  }
+  .about_data {
+    grid-template-columns: 1fr;
+  }
+  .about_emp {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about_title {
+    font-size: 32px;
+  }
+  .about_description {
+    font-size: 16px;
+  }
+  .about_text {
+    padding-left: 15px;
+  }
+  .about_button {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+  .about_links {
+    max-width: 22px;
   }
 }
 
@@ -332,5 +426,11 @@ body.dark-theme {
   }
   .home_description {
     padding-right: 8rem;
+  }
+  .about_emp {
+    padding-top: 60px;
+  }
+  .about_img {
+    width: 370px;
   }
 }
