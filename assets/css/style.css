@@ -319,7 +319,8 @@ body.dark-theme {
   border: 1px solid rgba(196, 196, 196, 0.76);
   box-sizing: border-box;
   backdrop-filter: blur(56px);
-  border-radius: 12px;
+  border-radius: 24px;
+  justify-self: center;
 }
 
 .project_container {
@@ -328,6 +329,7 @@ body.dark-theme {
   grid-template-columns: repeat(3, 1fr);
   gap: 23px;
 }
+
 .project_img_text {
   text-align: left;
   display: flex;
@@ -364,6 +366,56 @@ body.dark-theme {
 .project_box {
   text-align: center;
 }
+
+.services_title {
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--title-color);
+  justify-self: center;
+}
+
+.services_pont {
+  color: var(--primary-color);
+}
+
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 85px;
+  padding-top: 50px;
+}
+
+.services_services {
+  justify-self: center;
+  background: rgba(196, 196, 196, 0.07);
+  border: 1px solid rgba(196, 196, 196, 0.76);
+  box-sizing: border-box;
+  backdrop-filter: blur(56px);
+  border-radius: 12px;
+  padding: 65px 25px 55px 25px;
+}
+
+.services_div {
+  text-align: center;
+}
+
+.services_text {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--title-color);
+}
+
+.services_description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+}
+
 @media screen and (max-width: 320px) {
   .container {
     margin-left: 1rem;
@@ -432,10 +484,25 @@ body.dark-theme {
   .project_container {
     grid-template-columns: 1fr;
   }
+  .project_title {
+    font-size: 32px;
+  }
   .project_text {
     font-size: 16px;
   }
   .project_description {
+    font-size: 14px;
+  }
+  .services_title {
+    font-size: 32px;
+  }
+  .services_container {
+    grid-template-columns: 1fr;
+  }
+  .services_text {
+    font-size: 22px;
+  }
+  .services_description {
     font-size: 14px;
   }
 }
@@ -509,5 +576,8 @@ body.dark-theme {
   }
   .about_text {
     padding-top: 60px;
+  }
+  .services_services {
+    max-width: 400px;
   }
 }
