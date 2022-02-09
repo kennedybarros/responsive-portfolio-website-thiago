@@ -51,5 +51,7 @@ const sr = ScrollReveal({
   delay: 400,
 });
 
+sr.reveal('.nav_logo', { delay: 300 });
+sr.reveal('.nav_menu', { delay: 400 });
 sr.reveal(`.home_img, .about_img`, { delay: 600 });
 sr.reveal(`.home_data, .about_emp, .about_text`, { delay: 300 });

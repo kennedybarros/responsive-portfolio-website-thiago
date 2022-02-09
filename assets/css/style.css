@@ -433,4 +433,7 @@ body.dark-theme {
   .about_img {
     width: 370px;
   }
+  .about_text {
+    padding-top: 60px;
+  }
 }
