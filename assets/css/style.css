@@ -443,7 +443,7 @@ body.dark-theme {
 .footer_logo {
   color: #f7f7f7;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   padding-right: 100px;
 }
 
@@ -451,6 +451,33 @@ body.dark-theme {
   vertical-align: middle;
   width: 22px;
 }
+
+.scrollup {
+  position: fixed;
+  margin-bottom: -30px;
+  right: 40px;
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 12px hsla(0, 0%, 20%, 0.1);
+  display: inline-flex;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  z-index: 10;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  opacity: 1;
+}
+
+.scrollup_icon {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+
 @media screen and (max-width: 320px) {
   .container {
     margin-left: 1rem;
@@ -564,6 +591,10 @@ body.dark-theme {
   }
   .footer_logo_box {
     padding-right: 25px;
+  }
+  .scrollup {
+    margin-bottom: 20px;
+    right: 15px;
   }
 }
 
