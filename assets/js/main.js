@@ -52,7 +52,30 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.home_img, .about_img, .about_emp`, { delay: 600 });
-sr.reveal(`.home_data, .about_emp, .about_text, .project_title`, {
-  delay: 300,
-});
-sr.reveal(`.project_data`, { delay: 400 });
+sr.reveal(
+  `.home_data, .about_emp, .about_text, .project_title, .services_title`,
+  {
+    delay: 300,
+  }
+);
+sr.reveal(`.project_data, .services_container`, { delay: 400 });
+
+const sections = document.querySelectorAll('section[id]');
+function scrollActive() {
+  const scrollY = window.pageYOffset;
+  sections.forEach((current) => {
+    const sectionHeight = current.offsetHeight,
+      sectionTop = current.offsetTop - 58,
+      sectionId = current.getAttribute('id');
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document
+        .querySelector('.nav_menu a[href*=' + sectionId + ']')
+        .classList.add('active-link');
+    } else {
+      document
+        .querySelector('.nav_menu a[href*=' + sectionId + ']')
+        .classList.remove('active-link');
+    }
+  });
+}
+window.addEventListener('scroll', scrollActive);
