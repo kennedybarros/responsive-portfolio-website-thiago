@@ -1,5 +1,5 @@
 <h1 align="center">
-    Thiago<img src="./assets/img/logo.svg">
+    <img src="./assets/img/thiago.svg">
 </h1>
 
 <h1 align="center">
