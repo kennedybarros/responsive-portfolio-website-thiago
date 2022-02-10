@@ -480,7 +480,7 @@ body.dark-theme {
 
 ::-webkit-scrollbar {
   width: 5px;
-  background: #000000;
+  background: var(--body-color);
   border-radius: 5px;
 }
 
