@@ -388,7 +388,7 @@ body.dark-theme {
 .services_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 85px;
+  gap: 25px;
   padding-top: 50px;
   padding-bottom: 85px;
   justify-items: center;
@@ -582,6 +582,9 @@ body.dark-theme {
   .services_container {
     gap: 25px;
   }
+  .services_services {
+    padding: 45px 15px 45px 15px;
+  }
   .footer {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -680,6 +683,6 @@ body.dark-theme {
     padding-top: 60px;
   }
   .services_services {
-    max-width: 400px;
+    max-width: 350px;
   }
 }
