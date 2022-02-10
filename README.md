@@ -6,7 +6,7 @@
     <img src="./banner.png">
 </h1>
 
-<h3 align="center">You can access the project <a href="" target="_blank">Clicking here</a></h3>
+<h3 align="center">You can access the project <a href="https://reponsive-portfolio-website-thiago.netlify.app/" target="_blank">Clicking here</a></h3>
 
 ---
 
