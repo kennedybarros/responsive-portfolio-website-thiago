@@ -75,16 +75,21 @@ body.dark-theme {
 .dark-theme .nav_link {
   color: #b2b2b2;
 }
+
 .dark-theme .nav_link:hover {
   color: #f7f7f7;
 }
+
 .dark-theme .active-link {
   color: #f7f7f7;
 }
+
 .container {
+  background-color: var(--body-color);
   max-width: 1200px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  transition: 0.4s;
 }
 
 .grid {
@@ -97,7 +102,6 @@ body.dark-theme {
 
 .header {
   width: 100%;
-  background-color: var(--body-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -572,8 +576,24 @@ body.dark-theme {
   .project_description {
     font-size: 14px;
   }
+  .project_data {
+    max-width: 300px;
+  }
+  .project_img_text {
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .project_img {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .services_title {
     font-size: 32px;
+  }
+  .services_services {
+    max-width: 300px;
   }
   .services_container {
     grid-template-columns: 1fr;
@@ -615,22 +635,6 @@ body.dark-theme {
   .scrollup {
     margin-bottom: 20px;
     right: 15px;
-  }
-  .services_services {
-    max-width: 300px;
-  }
-  .project_data {
-    max-width: 300px;
-  }
-  .project_img_text {
-    padding-right: 15px;
-    padding-bottom: 20px;
-  }
-  .project_img {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 
@@ -704,10 +708,10 @@ body.dark-theme {
   .about_text {
     padding-top: 60px;
   }
-  .services_services {
+  .project_data {
     max-width: 350px;
   }
-  .project_data {
+  .services_services {
     max-width: 350px;
   }
 }
