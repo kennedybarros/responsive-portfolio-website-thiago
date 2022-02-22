@@ -22,7 +22,7 @@ body,
 button,
 input {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 body {
@@ -127,7 +127,7 @@ body.dark-theme {
   align-items: center;
   column-gap: 0.25rem;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .nav_logo-img {
@@ -170,7 +170,7 @@ body.dark-theme {
 
 .nav_link {
   color: var(--text-color);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -220,14 +220,14 @@ body.dark-theme {
 
 .home_title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--primary-color);
   padding-left: 50px;
 }
 
 .home_description {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-color);
   padding-top: 15px;
   padding-left: 50px;
@@ -235,7 +235,7 @@ body.dark-theme {
 
 .home_text {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--text-color);
   padding-top: 25px;
   padding-left: 50px;
@@ -276,7 +276,7 @@ body.dark-theme {
 
 .about_title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--title-color);
 }
 
@@ -286,7 +286,7 @@ body.dark-theme {
 
 .about_description {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-color);
   padding-top: 25px;
   padding-bottom: 35px;
@@ -297,7 +297,7 @@ body.dark-theme {
   background: var(--button);
   border-radius: 8px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
   color: var(--title-color);
   padding: 16px 30px;
@@ -315,7 +315,7 @@ body.dark-theme {
 
 .project_title {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--title-color);
   justify-self: center;
 }
@@ -360,14 +360,14 @@ body.dark-theme {
 }
 
 .project_text {
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 1.125rem;
   padding-left: 15px;
   color: var(--title-color);
 }
 
 .project_description {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   padding-left: 15px;
   line-height: 24px;
@@ -385,7 +385,7 @@ body.dark-theme {
 .services_title {
   padding-top: 100px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--title-color);
   justify-self: center;
 }
@@ -420,14 +420,14 @@ body.dark-theme {
 .services_text {
   padding-top: 20px;
   padding-bottom: 25px;
-  font-weight: bold;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 1.875rem;
   color: var(--title-color);
 }
 
 .services_description {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 30px;
   text-align: center;
   color: var(--text-color);
@@ -445,14 +445,14 @@ body.dark-theme {
 .footer_text {
   padding-left: 100px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   color: #c4c4c4;
 }
 
 .footer_logo {
   color: #f7f7f7;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 1.375rem;
   padding-right: 100px;
 }
 
@@ -517,13 +517,13 @@ body.dark-theme {
     padding-right: 30px;
   }
   .home_text {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .home_title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .home_description {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .home_img {
     width: 150px;
@@ -548,17 +548,17 @@ body.dark-theme {
     grid-template-columns: repeat(2, 1fr);
   }
   .about_title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .about_description {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .about_text {
     padding-left: 15px;
   }
   .about_button {
     padding: 15px 15px;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .about_links {
     max-width: 22px;
@@ -567,13 +567,13 @@ body.dark-theme {
     grid-template-columns: 1fr;
   }
   .project_title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .project_text {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .project_description {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .project_data {
     max-width: 300px;
@@ -589,7 +589,7 @@ body.dark-theme {
     padding-right: 15px;
   }
   .services_title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .services_services {
     max-width: 300px;
@@ -598,10 +598,10 @@ body.dark-theme {
     grid-template-columns: 1fr;
   }
   .services_text {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .services_description {
-    font-size: 14px;
+    font-size: 0.875rem;
     max-width: 300px;
   }
   .services_container {
@@ -616,11 +616,11 @@ body.dark-theme {
   }
   .footer_text {
     padding-left: 25px;
-    font-size: 10px;
+    font-size: 0.675rem;
   }
   .footer_logo {
     padding: 0px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer_text {
     padding-top: 10px;
@@ -671,7 +671,7 @@ body.dark-theme {
 
 @media screen and (max-width: 768px) {
   .nav_logo {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .nav_logo-img {
     width: 16px;
@@ -680,7 +680,7 @@ body.dark-theme {
     max-width: 20px;
   }
   .nav_link {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
