@@ -1,3 +1,4 @@
+// Menu
 const navMenu = document.getElementById('nav-menu'),
   navToggle = document.getElementById('nav-toggle'),
   navClose = document.getElementById('nav-close');
@@ -16,12 +17,14 @@ if (navClose) {
 
 const navLink = document.querySelectorAll('.nav_link');
 
+// Change Background
 function linkAction() {
   const navMenu = document.getElementById('nav-menu');
   navMenu.classList.remove('show-menu');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
+// Dark Mode
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
 const iconTheme = 'dark-change-theme';
@@ -44,6 +47,7 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme());
 });
 
+// Scroll Reveal
 const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
@@ -60,6 +64,7 @@ sr.reveal(
 );
 sr.reveal(`.project_data, .services_container`, { delay: 400 });
 
+// Scroll Ative Link
 const sections = document.querySelectorAll('section[id]');
 function scrollActive() {
   const scrollY = window.pageYOffset;
@@ -80,6 +85,7 @@ function scrollActive() {
 }
 window.addEventListener('scroll', scrollActive);
 
+// Scroll Up
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up');
   if (this.scrollY >= 350) scrollUp.classList.add('show-scroll');

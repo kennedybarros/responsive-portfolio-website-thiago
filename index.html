@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Kennedy Barros">
+    <meta name="author" content="Kennedy Barros" />
     <meta
       name="description"
       content="Responsive Portfolio Website Thiago by Kennedy B."
@@ -15,6 +15,7 @@
     <title>Reponsive Portfolio Website Thiago</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#home" class="nav_logo">
@@ -54,6 +55,7 @@
       </nav>
     </header>
     <main class="main">
+      <!-- HOME -->
       <section aria-label="home" class="home" id="home">
         <img class="home_vector" src="./assets/img/vector.svg" alt="Lines" />
         <div class="home_container container grid">
@@ -105,6 +107,7 @@
           />
         </div>
       </section>
+      <!-- ABOUT -->
       <section aria-label="about" class="about section container" id="about">
         <div class="about_emp">
           <img
@@ -185,7 +188,12 @@
           </div>
         </div>
       </section>
-      <section aria-label="projects" class="projects container grid" id="projects">
+      <!-- PROJECTS -->
+      <section
+        aria-label="projects"
+        class="projects container grid"
+        id="projects"
+      >
         <h2 class="project_title">
           Projects<span class="project_pont">.</span>
         </h2>
@@ -270,7 +278,12 @@
           </div>
         </div>
       </section>
-      <section aria-label="services" class="services container grid" id="services">
+      <!-- SERVICES -->
+      <section
+        aria-label="services"
+        class="services container grid"
+        id="services"
+      >
         <h2 class="services_title">
           Services<span class="services_pont">.</span>
         </h2>
@@ -298,6 +311,7 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer class="footer section">
       <p class="footer_text">@ 2022 - Kennedy Barros</p>
       <div class="footer_logo_box">
@@ -311,11 +325,15 @@
         </a>
       </div>
     </footer>
+    <!-- SCROLL UP -->
     <a href="#" class="scrollup" id="scroll-up">
       <img class="scrollup_icon" src="./assets/img/arrow.svg" alt="Arrow" />
     </a>
+    <!-- SCROLL REVEAL -->
     <script src="./assets/js/scrollreveal.min.js"></script>
+    <!-- SWIPER BUNDLE -->
     <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- JAVASCRIPT -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
