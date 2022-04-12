@@ -55,15 +55,17 @@ const sr = ScrollReveal({
   delay: 400,
 });
 
-sr.reveal(`.home_img, .about_img, .about_emp`, { delay: 600 });
-sr.reveal(
-  `.home_data, .about_emp, .about_text, .project_title, .services_title`,
-  {
-    delay: 300,
-  }
-);
+sr.reveal(`.home_img, .about_emp, .footer_text, .footer_logo_box`, {
+  delay: 600,
+});
+sr.reveal(` .about_img`, { origin: 'left' });
+sr.reveal(`.about_text`, { origin: 'right' });
+sr.reveal(`.home_data, .about_emp, .project_title, .services_title`, {
+  delay: 300,
+});
 sr.reveal(`.project_data, .services_container`, { delay: 400 });
-
+sr.reveal(`.services_design`, { origin: 'left' });
+sr.reveal(`.services_development`, { origin: 'right' });
 // Scroll Ative Link
 const sections = document.querySelectorAll('section[id]');
 function scrollActive() {

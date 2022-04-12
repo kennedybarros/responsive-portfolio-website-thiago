@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./assets/img/thiago.svg">
+    <img src="./assets/svg/thiago.svg">
 </h1>
 
 <div align="center">
@@ -55,6 +55,4 @@ This project is under license. see the file [LICENSE](LICENSE.md) for more detai
 
 <br/>
 
-
 <p align="center"> Developed by <a href="https://www.linkedin.com/in/kennedybarros/">Kennedy Barros</a> ✌🏼</p>
-

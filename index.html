@@ -4,15 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Kennedy Barros" />
+    <!-- HTML META TAGS -->
+    <title>Reponsive Portfolio Website Thiago</title>
     <meta
       name="description"
       content="Responsive Portfolio Website Thiago by Kennedy B."
     />
-    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <meta name="author" content="Kennedy Barros" />
+    <meta
+      property="og:url"
+      content="https://reponsive-portfolio-website-thiago.netlify.app/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Responsive Website PlayStation" />
+    <meta
+      property="og:description"
+      content="Responsive Portfolio Website Thiago by Kennedy B."
+    />
+    <meta property="og:image" content="https://i.ibb.co/44rgfcm/banner.png" />
+    <meta
+      property="canonical"
+      content="https://reponsive-portfolio-website-thiago.netlify.app/"
+    />
+    <meta property="keywords" content="responsive, website, portfolio" />
+    <meta property="robots" content="responsive, website, portfolio" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="reponsive-portfolio-website-thiago.netlify.app"
+    />
+    <meta
+      property="twitter:url"
+      content="https://reponsive-portfolio-website-thiago.netlify.app/"
+    />
+    <meta name="twitter:title" content="Reponsive Portfolio Website Thiago" />
+    <meta
+      name="twitter:description"
+      content="Responsive Portfolio Website Thiago by Kennedy B."
+    />
+    <meta name="twitter:image" content="https://i.ibb.co/44rgfcm/banner.png" />
+    <!-- FAVICON -->
+    <link rel="icon" href="./assets/svg/logo.svg" type="image/svg+xml" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Reponsive Portfolio Website Thiago</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -20,7 +66,13 @@
       <nav class="nav container">
         <a href="#home" class="nav_logo">
           Thiago
-          <img src="assets/img/logo.svg" alt="Thiago{}" class="nav_logo-img" />
+          <img
+            src="assets/svg/logo.svg"
+            width="25"
+            height="34"
+            alt="Thiago{}"
+            class="nav_logo-img"
+          />
         </a>
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list">
@@ -38,18 +90,20 @@
             </li>
           </ul>
           <div class="nav_close" id="nav-close">
-            <img src="./assets/img/close-menu.svg" alt="Button Close Menu" />
+            <img src="./assets/svg/close-menu.svg" alt="Button Close Menu" />
           </div>
         </div>
         <div class="nav_btns">
           <img
             class="change-theme"
             id="theme-button"
-            src="./assets/img/button-chenge-theme.svg"
+            src="./assets/svg/button-change-theme.svg"
+            width="36"
+            height="36"
             alt="Button Change Theme"
           />
           <div class="nav_toggle" id="nav-toggle">
-            <img src="./assets/img/menu.svg" alt="Menu" />
+            <img src="./assets/svg/menu.svg" alt="Menu" />
           </div>
         </div>
       </nav>
@@ -57,10 +111,10 @@
     <main class="main">
       <!-- HOME -->
       <section aria-label="home" class="home" id="home">
-        <img class="home_vector" src="./assets/img/vector.svg" alt="Lines" />
+        <img class="home_vector" src="./assets/svg/vector.svg" alt="Lines" />
         <div class="home_container container grid">
           <div class="home_data">
-            <p class="home_text">Hello, I’m Thiago.</p>
+            <p class="home_text">Hello, I'm Thiago.</p>
             <h1 class="home_title">
               Front End & <br />
               UI/UX Design
@@ -73,13 +127,17 @@
               <a href="https://www.facebook.com/k3nnedybarros/" target="_blank"
                 ><img
                   class="home_links"
-                  src="./assets/img/facebook.svg"
+                  src="./assets/svg/facebook.svg"
+                  width="28"
+                  height="28"
                   alt="Facebook"
               /></a>
               <a href="https://github.com/kennedybarros" target="_blank"
                 ><img
                   class="home_links"
-                  src="./assets/img/github.svg"
+                  src="./assets/svg/github.svg"
+                  width="28"
+                  height="28"
                   alt="Github"
               /></a>
               <a
@@ -87,19 +145,23 @@
                 target="_blank"
                 ><img
                   class="home_links"
-                  src="./assets/img/linkedin.svg"
+                  src="./assets/svg/linkedin.svg"
+                  width="28"
+                  height="28"
                   alt="Linkedin"
               /></a>
               <a href="https://twitter.com/k3nnedybarros" target="_blank"
                 ><img
                   class="home_links"
-                  src="./assets/img/twitter.svg"
+                  src="./assets/svg/twitter.svg"
+                  width="28"
+                  height="28"
                   alt="Twitter"
               /></a>
             </div>
           </div>
           <img
-            src="assets/img/people.png"
+            src="assets/img/people.webp"
             alt="People Thiago"
             width="282"
             height="792"
@@ -112,28 +174,28 @@
         <div class="about_emp">
           <img
             class="about_emp-logo"
-            src="./assets/img/colab.svg"
+            src="./assets/svg/colab.svg"
             width="141"
             height="46"
             alt="Colab"
           />
           <img
             class="about_emp-logo"
-            src="./assets/img/scale.svg"
+            src="./assets/svg/scale.svg"
             width="141"
             height="38"
             alt="Scale"
           />
           <img
             class="about_emp-logo"
-            src="./assets/img/terra.svg"
+            src="./assets/svg/terra.svg"
             width="141"
             height="38"
             alt="Terra"
           />
           <img
             class="about_emp-logo"
-            src="./assets/img/volume.svg"
+            src="./assets/svg/volume.svg"
             width="141"
             height="39"
             alt="Volume"
@@ -142,7 +204,7 @@
         <div class="about_data">
           <img
             class="about_img"
-            src="./assets/img/people-2.png"
+            src="./assets/img/people-2.webp"
             width="421"
             height="590"
             alt="People"
@@ -161,13 +223,17 @@
               <a href="https://www.facebook.com/k3nnedybarros/" target="_blank"
                 ><img
                   class="about_links"
-                  src="./assets/img/facebook.svg"
+                  src="./assets/svg/facebook.svg"
+                  width="28"
+                  height="28"
                   alt="Facebook"
               /></a>
               <a href="https://github.com/kennedybarros" target="_blank"
                 ><img
                   class="about_links"
-                  src="./assets/img/github.svg"
+                  src="./assets/svg/github.svg"
+                  width="28"
+                  height="28"
                   alt="Github"
               /></a>
               <a
@@ -175,13 +241,17 @@
                 target="_blank"
                 ><img
                   class="about_links"
-                  src="./assets/img/linkedin.svg"
+                  src="./assets/svg/linkedin.svg"
+                  width="28"
+                  height="28"
                   alt="Linkedin"
               /></a>
               <a href="https://twitter.com/k3nnedybarros" target="_blank"
                 ><img
                   class="about_links"
-                  src="./assets/img/twitter.svg"
+                  src="./assets/svg/twitter.svg"
+                  width="28"
+                  height="28"
                   alt="Twitter"
               /></a>
             </div>
@@ -202,7 +272,7 @@
             <div class="project_box">
               <img
                 class="project_img"
-                src="./assets/img/project.png"
+                src="./assets/img/project.webp"
                 width="322"
                 height="322"
                 alt=""
@@ -210,7 +280,7 @@
               <div class="project_img_text">
                 <img
                   class="project_icon"
-                  src="./assets/img/avatar.png"
+                  src="./assets/img/avatar.webp"
                   width="56"
                   height="56"
                   alt="Kennedy"
@@ -228,7 +298,7 @@
             <div class="project_box">
               <img
                 class="project_img"
-                src="./assets/img/project.png"
+                src="./assets/img/project.webp"
                 width="322"
                 height="322"
                 alt=""
@@ -236,7 +306,7 @@
               <div class="project_img_text">
                 <img
                   class="project_icon"
-                  src="./assets/img/avatar.png"
+                  src="./assets/img/avatar.webp"
                   width="56"
                   height="56"
                   alt="Kennedy"
@@ -254,7 +324,7 @@
             <div class="project_box">
               <img
                 class="project_img"
-                src="./assets/img/project.png"
+                src="./assets/img/project.webp"
                 width="322"
                 height="322"
                 alt=""
@@ -262,7 +332,7 @@
               <div class="project_img_text">
                 <img
                   class="project_icon"
-                  src="./assets/img/avatar.png"
+                  src="./assets/img/avatar.webp"
                   width="56"
                   height="56"
                   alt="Kennedy"
@@ -288,9 +358,14 @@
           Services<span class="services_pont">.</span>
         </h2>
         <div class="services_container">
-          <div class="services_services">
+          <div class="services_services services_design">
             <div class="services_div">
-              <img src="./assets/img/broom.svg" alt="Web Design" />
+              <img
+                src="./assets/svg/broom.svg"
+                width="50"
+                height="50"
+                alt="Web Design"
+              />
               <p class="services_text">Web Design</p>
               <p class="services_description">
                 I work with Web Design, using the biggest design platforms such
@@ -298,9 +373,14 @@
               </p>
             </div>
           </div>
-          <div class="services_services">
+          <div class="services_services services_development">
             <div class="services_div">
-              <img src="./assets/img/computer.svg" alt="Web Development" />
+              <img
+                src="./assets/svg/computer.svg"
+                width="51"
+                height="40"
+                alt="Web Development"
+              />
               <p class="services_text">Web Development</p>
               <p class="services_description">
                 I work with Web Development, using the biggest linguage
@@ -318,8 +398,10 @@
         <a href="#home" class="footer_logo">
           Thiago
           <img
-            src="assets/img/logo.svg"
+            src="assets/svg/logo.svg"
             alt="Thiago{}"
+            width="25"
+            height="34"
             class="footer_logo-img"
           />
         </a>
@@ -327,12 +409,18 @@
     </footer>
     <!-- SCROLL UP -->
     <a href="#" class="scrollup" id="scroll-up">
-      <img class="scrollup_icon" src="./assets/img/arrow.svg" alt="Arrow" />
+      <img
+        class="scrollup_icon"
+        src="./assets/svg/arrow.svg"
+        width="24"
+        height="24"
+        alt="Arrow"
+      />
     </a>
     <!-- SCROLL REVEAL -->
-    <script src="./assets/js/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- SWIPER BUNDLE -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- JAVASCRIPT -->
     <script src="assets/js/main.js"></script>
   </body>
